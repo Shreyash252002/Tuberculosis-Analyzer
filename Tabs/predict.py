@@ -54,7 +54,7 @@ def app(df, X, y):
     
 
     # Create a list to store all the features
-    features = [Resp_pm,AGE,PackHistory,MWT1,MWT2,MWT1Best,FEV1,FEV1PRED,FVC,FVCPRED,CAT,HAD,SGRQ,AGEquartiles,copd,gender,smoking,Diabetes,muscular,hypertension,AtrialFib,IHD]
+    features = [Resp_pm,AGE,PackHistory,MWT1,MWT2,MWT1Best,FEV1,FEV1PRED,FVC,FVCPRED,CAT,HAD,SGRQ,AGEquartiles,copd,smoking,Diabetes,muscular,hypertension,AtrialFib,IHD]
 
     # Create a button to predict
     if st.button("Predict"):
