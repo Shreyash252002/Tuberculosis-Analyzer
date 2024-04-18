@@ -43,7 +43,7 @@ def app(df, X, y):
     AGEquartiles = st.slider("AGEquartiles", float(df["AGEquartiles"].min()), float(df["AGEquartiles"].max()))
     copd = st.slider("copd", float(df["copd"].min()), float(df["copd"].max()))
 
-    gender = st.slider("gender", int(df["gender"].min()), int(df["gender"].max()))
+   
     smoking = st.slider("smoking", int(df["smoking"].min()), int(df["smoking"].max()))
     Diabetes = st.slider("Diabetes", int(df["Diabetes"].min()), int(df["Diabetes"].max()))
     muscular = st.slider("muscular", float(df["muscular"].min()), float(df["muscular"].max()))
